@@ -90,7 +90,8 @@ router.post('/login', async (req, res) => {
 
 // GET /auth-locked -- redirect if a bad token is found
 router.get('/auth-locked', authLockedRoute, (req, res) => {
-  res.json({ msg: 'Welcome to the private rouote!' })
+  console.log(res.locals.user)
+  res.json({ msg: 'Welcome to the private route! 🥳' })
 })
 
 module.exports = router

@@ -1,6 +1,6 @@
 # MERN Auth server
 
-this is an express api that does simple auth with 'jwt tokens' AKA 'JSON Web Tokens Tokens'
+this is an express api that does simple auth with 'jwt tokens' _AKA_ **'JSON Web Tokens Tokens'**
 
 ## Installing this app:
 

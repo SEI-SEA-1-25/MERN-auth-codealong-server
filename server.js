@@ -44,4 +44,5 @@ app.use('/api-v1/users', require('./controllers/api-v1/users.js'))
 app.listen(PORT, () => {
   rowdyResults.print()
   console.log(`you are listening to the smooth sound of ${PORT} in the morning 🌊`)
+  console.log(process.env.NODE_ENV)
 })

@@ -28,7 +28,7 @@ if(process.env.NODE_ENV === 'development') {
   const MongoClient = require('mongodb').MongoClient;
   
   const uri = process.env.ATLAS_URI
-  console.log(process.env.ATALS_URI)
+
   const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
   
   client.connect(err => {
